@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ControleDeTrafego.UiLogin" Title=" Login">
+	<ContentPage.Content>
+		<StackLayout Padding="25" BackgroundColor="White">
+			<Label Text="Login:" TextColor="Black"/>
+			<Entry x:Name="login" TextColor="Black" BackgroundColor="Silver"/>
+
+			<Label Text="Senha:" TextColor="Black"/>
+			<Entry x:Name="senha" TextColor="Black" BackgroundColor="Silver"/>
+
+			<Button x:Name="btnLogar" Text="Entrar" FontSize="12"/>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
